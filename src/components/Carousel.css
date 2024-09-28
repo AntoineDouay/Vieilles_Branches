@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.carousel{
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    max-width: 700px;
+    aspect-ratio: 10 / 6;
+    margin: 0 auto
+}
+
 .carousel-img{
     object-fit: cover;
     width: 100%;

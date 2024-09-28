@@ -33,7 +33,7 @@ function Carousel() {
     }
 
     return (
-        <div style={{height: "100%", width: "100%", position: "relative"}}>
+        <div className="carousel">
             <div style={{height:"100%", width:"100%", display: "flex", overflow: "hidden"}}>
                 {imgs.map((url)=> (
                     <img key={url} src={url} className="carousel-img"  style={{translate: `${-100 * index}%`}}/>
